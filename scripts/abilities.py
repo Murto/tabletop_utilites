@@ -16,3 +16,4 @@ scores = []
 for _ in xrange(6):
     scores.append(ability_roll())
 print(" ".join(str(x) for x in scores))
+print("Sum: %s" % sum(scores))
